@@ -1,7 +1,7 @@
 'use strict';
 const messages = require('./messages');
-const authentication = require('./authentication');
 const user = require('./user');
+const authentication = require('./authentication');
 
 module.exports = function() {
   const app = this;
